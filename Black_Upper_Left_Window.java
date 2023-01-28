@@ -7,7 +7,7 @@ import java.awt.*;
  * @version 2016.02.29
  */
 
-public class Door
+public class Black_Upper_Left_Window
 {
     private int size;
     private int xPosition;
@@ -18,12 +18,12 @@ public class Door
     /**
      * Create a new square at default position with default color.
      */
-    public Door()
+    public Black_Upper_Left_Window()
     {
-        size = 25;
-        xPosition = 228;
-        yPosition = 110;
-        color = "yellow";
+        size = 20;
+        xPosition = 215;
+        yPosition = 90;
+        color = "black";
         isVisible = false;
     }
 

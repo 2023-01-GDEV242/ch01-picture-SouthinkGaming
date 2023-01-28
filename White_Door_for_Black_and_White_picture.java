@@ -7,7 +7,7 @@ import java.awt.*;
  * @version 2016.02.29
  */
 
-public class House
+public class White_Door_for_Black_and_White_picture
 {
     private int size;
     private int xPosition;
@@ -18,12 +18,12 @@ public class House
     /**
      * Create a new square at default position with default color.
      */
-    public House()
+    public White_Door_for_Black_and_White_picture()
     {
-        size = 60;
-        xPosition = 210;
-        yPosition = 80;
-        color = "red";
+        size = 25;
+        xPosition = 228;
+        yPosition = 110;
+        color = "white";
         isVisible = false;
     }
 

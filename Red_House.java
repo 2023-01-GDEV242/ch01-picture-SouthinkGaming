@@ -7,7 +7,7 @@ import java.awt.*;
  * @version 2016.02.29
  */
 
-public class Upper_Right_Window
+public class Red_House
 {
     private int size;
     private int xPosition;
@@ -18,12 +18,12 @@ public class Upper_Right_Window
     /**
      * Create a new square at default position with default color.
      */
-    public Upper_Right_Window()
+    public Red_House()
     {
-        size = 20;
-        xPosition = 245;
-        yPosition = 90;
-        color = "black";
+        size = 60;
+        xPosition = 210;
+        yPosition = 80;
+        color = "red";
         isVisible = false;
     }
 

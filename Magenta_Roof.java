@@ -7,7 +7,7 @@ import java.awt.*;
  * @version 2016.02.29
  */
 
-public class Roof
+public class Magenta_Roof
 {
     private int height;
     private int width;
@@ -19,7 +19,7 @@ public class Roof
     /**
      * Create a new triangle at default position with default color.
      */
-    public Roof()
+    public Magenta_Roof()
     {
         height = 45;
         width = 70;
