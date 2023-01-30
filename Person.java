@@ -26,7 +26,7 @@ public class Person
         xPosition = 280;
         yPosition = 190;
         color = "black";
-        isVisible = false;
+        isVisible = true;
     }
 
     /**

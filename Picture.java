@@ -29,6 +29,7 @@ public class Picture
         window = new Square();
         roof = new Triangle();  
         sun = new Circle();
+        
         drawn = true;
     }
 
@@ -37,6 +38,11 @@ public class Picture
      */
     public void draw() {
         if(!drawn) {            
+            wall.moveHorizontal(-140);
+            wall.moveVertical(20);
+            wall.changeSize(120);
+            wall.makeVisible();
+            
             grass.moveHorizontal(-200);
             grass.moveVertical(20);
             grass.changeSize(400);
@@ -46,11 +52,6 @@ public class Picture
             sky.moveVertical(20);
             sky.changeSize(400);
             sky.makeVisible();
-            
-            wall.moveHorizontal(-140);
-            wall.moveVertical(20);
-            wall.changeSize(120);
-            wall.makeVisible();
             
             window.changeColor("black");
             window.moveHorizontal(-120);
