@@ -20,6 +20,7 @@ dependency6.type=UsesDependency
 dependency7.from=Picture
 dependency7.to=Circle
 dependency7.type=UsesDependency
+<<<<<<< Updated upstream
 editor.fx.0.height=1406
 editor.fx.0.width=1293
 editor.fx.0.x=1273
@@ -32,10 +33,52 @@ package.editor.height=1208
 package.editor.width=1166
 package.editor.x=0
 package.editor.y=0
+=======
+<<<<<<< HEAD
+dependency8.from=Upper_Left_Window_for_Black_and_White_picture
+dependency8.to=Canvas
+dependency8.type=UsesDependency
+dependency9.from=Magenta_Roof
+dependency9.to=Canvas
+dependency9.type=UsesDependency
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+objectbench.height=154
+objectbench.width=1254
+package.divider.horizontal=0.549209486166008
+package.divider.vertical=0.734906695938529
+package.editor.height=425
+package.editor.width=1153
+package.editor.x=0
+package.editor.y=0
+package.frame.height=706
+package.frame.width=1293
+package.numDependencies=25
+package.numTargets=25
+=======
+editor.fx.0.height=1406
+editor.fx.0.width=1293
+editor.fx.0.x=1273
+editor.fx.0.y=0
+objectbench.height=85
+objectbench.width=684
+package.divider.horizontal=0.5492584745762712
+package.divider.vertical=0.9291539245667686
+package.editor.height=1208
+package.editor.width=1166
+package.editor.x=0
+package.editor.y=0
+>>>>>>> Stashed changes
 package.frame.height=1406
 package.frame.width=1293
 package.numDependencies=7
 package.numTargets=7
+<<<<<<< Updated upstream
+=======
+>>>>>>> e9dd32be8d286572df7357ee2f3e035b278cd26f
+>>>>>>> Stashed changes
 package.showExtends=true
 package.showUses=true
 project.charset=x-MacRoman
