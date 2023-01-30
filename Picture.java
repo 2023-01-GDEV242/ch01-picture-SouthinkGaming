@@ -16,30 +16,29 @@ public class Picture
     private Square window;
     private Triangle roof;
     private Circle sun;
-    private Circle sun2;
     private boolean drawn;
 
     /**
      * Constructor for objects of class Picture
      */
-    public Picture()
-    {
+    public Picture() {
         wall = new Square();
         grass = new Square();
         window = new Square();
         roof = new Triangle();  
         sun = new Circle();
-        sun2 = new Circle();
         drawn = true;
     }
 
     /**
      * Draw this picture.
      */
-    public void draw()
-    {
-        if(!drawn) {
-            //grass.changeSize();
+    public void draw() {
+        if(!drawn) {            
+            grass.moveHorizontal(0);
+            grass.moveVertical(20);
+            grass.changeSize(120);
+            grass.makeVisible();
             
             wall.moveHorizontal(-140);
             wall.moveVertical(20);
@@ -63,12 +62,6 @@ public class Picture
             sun.changeSize(80);
             sun.makeVisible();
             
-            sun2.changeColor("red");
-            sun2.moveHorizontal(-100);
-            sun2.moveVertical(-40);
-            sun2.changeSize(80);
-            sun2.makeVisible();
-            
             drawn = true;
         }
     }
@@ -76,8 +69,8 @@ public class Picture
     /**
      * Change this picture to black/white display
      */
-    public void setBlackAndWhite()
-    {
+    public void setBlackAndWhite() {
+        grass.changeColor("black");
         wall.changeColor("black");
         window.changeColor("white");
         roof.changeColor("black");
@@ -87,11 +80,11 @@ public class Picture
     /**
      * Change this picture to use color display
      */
-    public void setColor()
-    {
+    public void setColor() {
+        grass.changeColor("green");
         wall.changeColor("red");
         window.changeColor("black");
-        roof.changeColor("green");
+        roof.changeColor("magenta");
         sun.changeColor("yellow");
     }
 }
