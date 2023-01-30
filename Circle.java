@@ -25,7 +25,7 @@ public class Circle
         xPosition = 230;
         yPosition = 90;
         color = "blue";
-        isVisible = true;
+        isVisible = false;
     }
 
     /**

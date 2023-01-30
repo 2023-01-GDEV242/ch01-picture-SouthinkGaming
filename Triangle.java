@@ -26,7 +26,7 @@ public class Triangle
         xPosition = 210;
         yPosition = 140;
         color = "green";
-        isVisible = true;
+        isVisible = false;
     }
 
     /**

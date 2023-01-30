@@ -7,7 +7,7 @@ import java.awt.*;
  * @version 2016.02.29
  */
 
-public class Window
+public class Grass
 {
     private int size;
     private int xPosition;
@@ -18,12 +18,12 @@ public class Window
     /**
      * Create a new square at default position with default color.
      */
-    public Window()
+    public Grass()
     {
-        size = 15;
-        xPosition = 205;
-        yPosition = 150;
-        color = "black";
+        size = 500;
+        xPosition = 0;
+        yPosition = 180;
+        color = "green";
         isVisible = false;
     }
 

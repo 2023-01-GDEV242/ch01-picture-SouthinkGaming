@@ -23,10 +23,10 @@ public class Roof
     {
         height = 60;
         width = 70;
-        xPosition = 210;
-        yPosition = 140;
-        color = "green";
-        isVisible = true;
+        xPosition = 225;
+        yPosition = 80;
+        color = "magenta";
+        isVisible = false;
     }
 
     /**

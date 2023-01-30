@@ -21,10 +21,10 @@ public class House
     public House()
     {
         size = 60;
-        xPosition = 310;
-        yPosition = 120;
+        xPosition = 195;
+        yPosition = 140;
         color = "red";
-        isVisible = true;
+        isVisible = false;
     }
 
     /**

@@ -22,9 +22,9 @@ public class Sun
     public Sun()
     {
         diameter = 68;
-        xPosition = 230;
-        yPosition = 90;
-        color = "blue";
+        xPosition = 0;
+        yPosition = 0;
+        color = "yellow";
         isVisible = true;
     }
 
