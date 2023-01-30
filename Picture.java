@@ -12,8 +12,6 @@
 public class Picture
 {
     private Square wall;
-    private Square grass;
-    private Square sky;
     private Square window;
     private Triangle roof;
     private Circle sun;
@@ -24,8 +22,6 @@ public class Picture
      */
     public Picture() {
         wall = new Square();
-        grass = new Square();
-        sky = new Square();
         window = new Square();
         roof = new Triangle();  
         sun = new Circle();
@@ -38,20 +34,10 @@ public class Picture
      */
     public void draw() {
         if(!drawn) {            
-            wall.moveHorizontal(-140);
+            wall.moveHorizontal(-60);
             wall.moveVertical(20);
             wall.changeSize(120);
             wall.makeVisible();
-            
-            grass.moveHorizontal(-200);
-            grass.moveVertical(20);
-            grass.changeSize(400);
-            grass.makeVisible();
-            
-            sky.moveHorizontal(-200);
-            sky.moveVertical(20);
-            sky.changeSize(400);
-            sky.makeVisible();
             
             window.changeColor("black");
             window.moveHorizontal(-120);
@@ -79,8 +65,6 @@ public class Picture
      */
     public void setBlackAndWhite() {
         wall.changeColor("black");
-        grass.changeColor("black");
-        sky.changeColor("white");
         window.changeColor("white");
         roof.changeColor("black");
         sun.changeColor("black");
@@ -90,7 +74,6 @@ public class Picture
      * Change this picture to use color display
      */
     public void setColor() {
-        grass.changeColor("green");
         wall.changeColor("red");
         window.changeColor("black");
         roof.changeColor("magenta");
